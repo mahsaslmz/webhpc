@@ -43,11 +43,41 @@ header{
 }
 .slide img{
     width: 100%;
+    margin-bottom:20px;
 }
-.artlavazem{
-    margin-top: 35px;
+.contain-lavazem{
+    float: center;
+    width: 420px;
+    height:400px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.contain-lavazem:hover .lavazem img{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }
 .lavazem img{
-    margin:7px 15px;
-    width: 93%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease; 
+}
+.threeborder{
+    margin:20px ;
+    text-align: right;
+    
+}
+.divwhole{
+    display: flex;
+    border: 3px blue solid;
+    border-radius: 13px;
+    justify-content: right;
+    margin: 0 20px;
+    padding: 20px;
+}
+.threeborder p{
+    font-family: sans-serif;
+    margin:5px;
+}
+.h1-border{
+font-size: 20px;
+
 }
