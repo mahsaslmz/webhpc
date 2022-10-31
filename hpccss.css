@@ -1,3 +1,7 @@
+@font-face {
+    font-family: danesh;
+    src: url(font/danesh/daneshbditalicfarsidigit.ttf) format("ttf");
+}   
 *{
     margin: 0;
 }
@@ -72,6 +76,8 @@ header{
     justify-content: right;
     margin: 0 20px;
     padding: 20px;
+    font-family:danesh;
+    
 }
 .threeborder p{
     font-family: sans-serif;
@@ -80,4 +86,11 @@ header{
 .h1-border{
 font-size: 20px;
 
+}
+.kia{
+    text-align: center;
+}
+.mahsa{
+    color: red;
+    font-family: danesh;
 }
